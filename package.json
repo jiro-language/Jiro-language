@@ -1,0 +1,18 @@
+{
+  "name": "jiro-lang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "babel-generator": "^6.24.1",
+    "babel-plugin-call-to-console-log": "jiro-language/babel-plugin-call-to-console-log",
+    "babel-traverse": "^6.24.1",
+    "babel-types": "^6.24.1",
+    "qomolangma": "git+https://github.com/jiro-language/qomolangma.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
