@@ -1,0 +1,5 @@
+トッピング aaaaa(){
+    return;
+}
+
+コール('hello');

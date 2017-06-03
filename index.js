@@ -1,12 +1,10 @@
+const fs = require('fs');
 const lib = require('./src/lib');
 
-const result = lib(`
-トッピング aaaa() {
-  return 'bbbb';
-}
+const filePath = process.argv[2];
+const source = fs.readFileSync(filePath, {encoding: 'UTF-8'});
 
-コール("aaaaaaa");
-`);
+const result = lib(source);
 
 console.log(result);
 
